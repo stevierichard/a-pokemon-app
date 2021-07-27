@@ -1,0 +1,58 @@
+{
+  "pokemon": [
+    {
+      "name": "Bulbasaur",
+      "id": 1,
+      "type": "Grass",
+      "moves": [
+        "takle",
+        "growl"
+      ]
+    },
+    {
+      "name": "Charmander",
+      "id": 2,
+      "type": "Fire",
+      "moves": [
+        "takle",
+        "growl"
+      ]
+    },
+    {
+      "name": "Squirtle",
+      "id": 3,
+      "type": "Water",
+      "moves": [
+        "takle",
+        "growl"
+      ]
+    },
+    {
+      "name": "Eevee",
+      "id": 4,
+      "type": "Normal",
+      "moves": [
+        "takle",
+        "growl"
+      ]
+    },
+    {
+      "name": "Pikachu",
+      "type": "Electric",
+      "moves": [
+        "electric shock ",
+        "growl"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Blastoise",
+      "type": "Water",
+      "moves": [
+        "tackle",
+        "water cannon"
+      ],
+      "id": 6
+    }
+  ]
+}

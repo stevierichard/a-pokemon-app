@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>ADD</title>
+  </head>
+  <body>
+    <div class="jumbotron bg-primary rounded-0">
+      <h1 class="text-light text-center">Pokedex</h1>
+      <div class="text-center">
+        <a class="text-light linkButton" href="/">ALL</a>
+        <a class="text-light linkButton" href="/add">NEW</a>
+        <a class="text-light linkButton" href="/find">FIND</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-sm-8 offset-sm-2">
+        <form>
+          <div class="mb-3">
+            <label for="pokemonSubmit" class="form-label">Search By Pokeman Name</label>
+            <input id="pokeSearchText" type="text" class="form-control" />
+          </div>
+          
+          <button id="searchSubmit" type="submit" class="btn btn-primary">
+            Search Submit
+          </button>
+        </form>
+
+        
+
+          <div id="searchResults" class="mt-4">
+
+            
+
+        
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./find.js"></script>
+  </body>
+</html>
